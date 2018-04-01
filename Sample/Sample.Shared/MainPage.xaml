@@ -5,7 +5,7 @@
             Title="Sensor Sample">
 
     <ContentPage.Content>
-        <ListView ItemsSource="{Binding Sensors}" RowHeight="80">
+        <ListView ItemsSource="{Binding Sensor}" RowHeight="80">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
